@@ -1,3 +1,12 @@
+body#background {
+  background-color: #f5deb3;
+}
+footer{
+background-color: #523f2e;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px 20px;
+}
 body {
   margin: 0;
   font-family: "Futura", Helvetica, sans-serif;
@@ -144,32 +153,4 @@ body {
   color: #ddd;
   letter-spacing: 4px;
   font-size: 20px;
-}
-header#hede {
-  background-color: #f5deb3;
-}
-header nav ul {
-  display: flex;
-justify-content: center;
-border-top: 2px solid #7c5d48;
-  border-bottom: 2px solid #7c5d48;
-  background-color: rgba(225,225,255,0.42);
-  padding: 12px 0px 10px;
-}
-header nav ul li {
-  margin: 0 20px;
-}
-header nav ul li a {
-  font-size: 22px;
-  font-weight: bold;
-  color: #7c5d48;
-}
-header nav ul li a:hover{
-  text-decoration: underline double;
-}
-footer{
-background-color: #523f2e;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 10px 20px;
 }
