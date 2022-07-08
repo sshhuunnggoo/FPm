@@ -2,9 +2,9 @@ body {
   margin: 0;
   font-family: "Futura", Helvetica, sans-serif;
 }
-
+body { font-family: "yu Gothic", "游ゴシック Medium", "yuGothic", "游ゴシック体", "ヒラギイ角ゴ Pro M3", sans-serif; line-height: 1.7; color: #432; } 
 /* Navbar & Navmenu color */
-:root {
+:root {2
   --background-navbar: rgba(55, 55, 55, 0.98);
 }
 
