@@ -5,8 +5,6 @@ body {
 body { font-family: "yu Gothic", "游ゴシック Medium", "yuGothic", "游ゴシック体", "ヒラギイ角ゴ Pro M3", sans-serif; line-height: 1.7; color: #432; } 
 /* Navbar & Navmenu color */
 :root {2
-  --background-navbar: rgba(55, 55, 55, 0.98);
-}
 
 .header {
   background: var(--background-navbar);
