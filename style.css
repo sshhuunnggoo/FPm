@@ -10,13 +10,6 @@ body {
     margin: 2em 0;/*前後の余白*/
     padding: 0;
 }
-h2 {
-  background-color: red;
-  color: yellow;
-  font-size: medium;
-  font-size: large;
-  font-family: 'Sawarabi Gothic', sans-serif;
-}
 /*ボタン装飾*/
 .hidden_box label {
     padding: 12px;
