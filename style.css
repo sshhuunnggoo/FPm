@@ -6,7 +6,52 @@ body {
   margin: 0;
   font-family: "Futura", Helvetica, sans-serif;
 }
+  .hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+}
+h2 {
+  background-color: red;
+  color: yellow;
+  font-size: medium;
+  font-size: large;
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+/*ボタン装飾*/
+.hidden_box label {
+    padding: 12px;
+    font-weight: bold;
+    border: solid 2px black;
+    cursor :pointer;
+    border-radius: 10px;
+    background-color: rgba(230, 230, 250, 0.5);
+}
 
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: rgba(230, 230, 250, 1);
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
 /* Navbar & Navmenu color */
 :root {
   --background-navbar: rgba(55, 55, 55, 0.98);
